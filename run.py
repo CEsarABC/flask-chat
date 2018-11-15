@@ -1,6 +1,7 @@
 import os
 from datetime import datetime
 from flask import Flask, redirect, render_template, request
+from flask_wtf import FlaskForm
 
 app = Flask(__name__)
 messages = []
